@@ -1,0 +1,27 @@
+body {
+    margin-top: 6.5rem;
+}
+
+
+.border-primary-2 {
+    border-color: $color-primary-light;
+}
+
+.bg-primary-light {
+    background: $color-primary-light;
+}
+
+.text-primary-light {
+    color: $color-primary-light;
+}
+
+.btn-primary {
+    
+        background: $color-primary-light;
+        border: $color-primary-light;
+
+        &:hover {
+            background: $color-primary-dark;
+        }
+    
+}
